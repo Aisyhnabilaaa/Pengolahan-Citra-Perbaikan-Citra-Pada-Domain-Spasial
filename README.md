@@ -11,29 +11,31 @@ Proyek ini mendemonstrasikan teknik dasar pengolahan citra menggunakan Python. B
 
 ## Instalasi
 1. Clone repository ini:
-
+   ```bash
    git clone <repository-url>
-   
+   ```   
 2. Install dependensi yang diperlukan:
-
+   ```bash
     pip install -r requirements.txt
+   ```
 
 Dependensi meliputi:
-- numpy
-- matplotlib
-- opencv-python
-- scipy
+- `numpy`
+- `matplotlib`
+- `opencv-python`
+- `scipy`
 
 ## Penggunaan
 1. Letakkan gambar input Anda di direktori proyek. Dalam contoh ini, gambar yang digunakan bernama bunga&bebek.jpg.
 2. Jalankan script Python untuk menerapkan filter dan melihat hasilnya:
-
+   ```bash
 python image_filters.py
+   ```
 
 3. Script ini akan:
-- Membaca gambar input dan mengonversinya ke grayscale jika diperlukan.
-- Menerapkan setiap filter (rata-rata, median, minimum, maksimum, Laplacian, Sobel X, dan Sobel Y) pada gambar.
-- Menampilkan gambar asli dan gambar hasil filter.
+- `Membaca gambar input dan mengonversinya ke grayscale jika diperlukan.`
+- `Menerapkan setiap filter (rata-rata, median, minimum, maksimum, Laplacian, Sobel X, dan Sobel Y) pada gambar.`
+- `Menampilkan gambar asli dan gambar hasil filter.`
 
 ## Contoh Hasil
 Setelah menjalankan script, Anda akan melihat beberapa subplot yang menampilkan perbandingan antara gambar asli dengan gambar yang telah difilter:
