@@ -29,7 +29,7 @@ Dependensi meliputi:
 1. Letakkan gambar input Anda di direktori proyek. Dalam contoh ini, gambar yang digunakan bernama bunga&bebek.jpg.
 2. Jalankan script Python untuk menerapkan filter dan melihat hasilnya:
    ```bash
-python image_filters.py
+   python image_filters.py
    ```
 
 3. Script ini akan:
